@@ -1,0 +1,33 @@
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+p{
+    text-align: center;
+    color:black;
+}
+.bold{
+    font-weight:bold;
+    background:green;
+}
+body{
+    margin:0;
+}
+section{
+    float:left;
+}
+.section {
+    width:50%; float: left;
+}
+aside{
+    float:right;
+}
+.aside {
+    width:50%; float: right;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+footer{
+    width: 100%;
+}
