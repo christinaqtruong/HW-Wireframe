@@ -1,33 +1,62 @@
-.clearfix::after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
-p{
-    text-align: center;
+*{
     color:black;
+    box-sizing:border-box;
+    text-align:center;
 }
-.bold{
-    font-weight:bold;
-    background:green;
+
+header{
+    background:red;
+    padding: 10px;
+    margin: 5px;
 }
-body{
-    margin:0;
+
+nav{
+    background: gray;
+    padding: 10px;
+    margin: 5px;
 }
+
 section{
+    background:blue;
+    color:white;
+    padding: 10px;
     float:left;
+    width:49%;
+    padding: 5px;
+    margin: 6px;
 }
-.section {
-    width:50%; float: left;
+
+.article{
+    background:pink;
+    margin: 5px;
+    padding: 20px;
 }
-aside{
-    float:right;
+
+.headings{
+    background:orange;
+    margin: 5px;
+    padding: 3px;
 }
-.aside {
-    width:50%; float: right;
-    margin: 0 auto;
-    padding: 0 auto;
+
+.p{
+    background:aqua;
+    margin: 5px;
+    padding: 3px;
 }
+aside {
+    background:green;
+    float:left;
+    width:49%; 
+    padding: 114px 0;
+    margin:6px;
+    
+}
+
 footer{
-    width: 100%;
-}
+    background:brown;
+    clear:both;
+    padding: 10px;
+    margin: 5px;
+    }
+
+
